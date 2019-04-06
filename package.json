@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --baseHref='/itemMangemant'",
+    "build": "ng build --prod --baseHref=/itemMangemant",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist/itemMangemant"
   },
   "private": true,
   "dependencies": {
