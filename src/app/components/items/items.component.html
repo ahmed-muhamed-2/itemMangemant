@@ -2,7 +2,7 @@
   <ul *ngFor="let item of items" class="collection">
     <li class="collection-item">
       <strong>{{ item.title }} :</strong> {{ item.description }}
-      <a href="#" class="secondary-content"
+      <a class="secondary-content"
         ><i (click)="editItem($event, item)" class="fa fa-pencil"></i>
         <i
           *ngIf="editState && itemToEdit.id == item.id"
