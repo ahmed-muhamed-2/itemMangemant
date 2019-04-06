@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
@@ -24,6 +25,7 @@
     "core-js": "^2.5.4",
     "firebase": "^5.9.2",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "materialize-css": "^1.0.0",
     "rxjs": "~6.3.3",
@@ -49,5 +51,15 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.1.1"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-ahmed-muhamed-2:ahmed-muhamed-2/itemMangemant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "home": "https://ahmed-muhamed-2.github.io/itemMangemant"
 }
